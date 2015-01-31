@@ -76,7 +76,7 @@ for (var j = 0; j < operations.length; j++) {
                     output.value = num1 * num1 * num1;
                     break;
                 case '√':
-                    output.value = Math.Math.sqrt(num1);
+                    output.value = Math.sqrt(num1);
                     break;
                 case 'π ':
                     output.value = Math.PI;
@@ -143,6 +143,5 @@ submit.onclick = function() {
             output.value = Math.pow(num1, num2);
             break;
     }
-
 };
 })();

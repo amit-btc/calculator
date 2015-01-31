@@ -5,5 +5,5 @@ gulp.task('default', function() {
         .pipe(uncss({
             html: ['index.html']
         }))
-        .pipe(gulp.dest('./out'));
+        .pipe(gulp.dest('./css'));
 });
